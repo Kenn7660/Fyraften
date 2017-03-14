@@ -13,8 +13,8 @@ html, body {
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
     position: absolute;
     z-index: 1;
-    margin-top: 52px;
-    margin-left: 15px;
+    margin-top: 45px;
+    margin-left: 10px;
 }
 .onoffswitch-checkbox {
     display: none;
