@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,33 @@
 </head>
 
 <body>
-      <template id="info"><div><h2 class="navn">Hej</h2></div></template>
+    <template id="template_info">
+        <div class="navn">
+            <h2>NAVN</h2></div>
+        <div class="beskrivelse">BESKRIVELSE</div>
+        <div class="adresse">ADRESSE</div>
+    </template>
 
 
-      </template>
-<div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
-</div>
+    </template>
+    <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+        <label class="onoffswitch-label" for="myonoffswitch">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"></span>
+        </label>
+    </div>
 
-          <div id="map">
+    <div id="map">
 
-          </div>
+    </div>
 
     <script src="Script.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAemhRHIVcI9Aq7uIXzgtdTQN82NFTGhoM&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAemhRHIVcI9Aq7uIXzgtdTQN82NFTGhoM&callback=initMap">
+
+
     </script>
 </body>
+
 </html>
