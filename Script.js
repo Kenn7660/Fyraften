@@ -26,7 +26,7 @@ function createMarker(info){
 
     var infoWindow = new google.maps.InfoWindow({
         content: "Bliver overskrevet",
-        position: info.psotion,
+        position: info.position,
     });
 
     marker.addListener("click", function(){
