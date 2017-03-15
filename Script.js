@@ -151,12 +151,14 @@ function initMap() {
     });
 
     var bounds = {
-        notrh: 55,
-        south: 55,
-        east: 12,
-        west;12
+        north: 55.70298416103664,
+        south: 55.663595921599494,
+        east: 12.674502826171874,
+        west: 12.468509173828124,
     }
 
+    var overlay = new google.maps.GroundOverlay('overlayKbh-01.svg', bounds);
+    overlay.setMap(map);
 
 
     $.getJSON("fyraften.JSON", importData);
@@ -172,14 +174,14 @@ function importData(data) {
 
     findAlleMarkers();
 
-    //    var myMarker = new google.maps.Marker({
-    //        position: {
-    //            lat: 55.683295,
-    //            lng: 12.571506
-    //        },
-    //        map: map,
-    //        icon: "icon.svg"
-    //    });
+    var myMarker = new google.maps.Marker({
+        position: {
+            lat: 55.683295,
+            lng: 12.571506
+        },
+        map: map,
+        icon: "icon.svg"
+    });
 
 
 
@@ -218,7 +220,7 @@ function importData(data) {
     }
 }
 
-// først her ved vi at vi har en JSON fil!
+//først her ved vi at vi har en JSON fil!
 
 
 
