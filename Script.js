@@ -3,6 +3,10 @@ var myCenter = {
     lng: 12.571506
 };
 var map;
+var liste;
+var infoMarker;
+
+
 
 function initMap() {
     console.log("Map bliver vist")
@@ -146,13 +150,104 @@ function initMap() {
         }]
     });
 
+    var bounds = {
+        notrh: 55,
+        south: 55,
+        east: 12,
+        west;12
+    }
+
+
+
     $.getJSON("fyraften.JSON", importData);
+
+
 }
 
-function importData(JSONdata) {
-    JSONdata.forEach(createMarker);
+function importData(data) {
+    console.log("har loadet JSON");
+    liste = data;
+    liste.forEach(createMarker);
+
+
+    findAlleMarkers();
+
+    //    var myMarker = new google.maps.Marker({
+    //        position: {
+    //            lat: 55.683295,
+    //            lng: 12.571506
+    //        },
+    //        map: map,
+    //        icon: "icon.svg"
+    //    });
+
+
+
+
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(function (position) {
+            var minPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+            map.setCenter(minPos);
+            myMarker.setPosition(minPos);
+
+            // Vi har flyttet os!
+            liste.forEach(function (interessepunkt) {
+                //  console.log(interessepunkt);
+                var markerPos = new google.maps.LatLng(interessepunkt.position.lat, interessepunkt.position.lng);
+
+
+                // beregn afstand mellem bruger og marker
+                var dist = google.maps.geometry.spherical.computeDistanceBetween(markerPos, minPos);
+                console.log("distance to " + interessepunkt.navn + " is " + dist);
+                if (dist < 10) {
+                    var selector = "#markerLayer .marker." + interessepunkt.markerclass;
+                    var markerElement = document.querySelector(selector);
+                    if (markerElement != null) {
+                        markerElement.classList.add("active");
+                        //todo: Activate marker for click - har jeg måske gjort?
+                    }
+
+                }
+            });
+
+
+        });
+    } else {
+        alert("Geolocation NOT");
+    }
 }
 
+// først her ved vi at vi har en JSON fil!
+
+
+
+//find all markers
+
+function findAlleMarkers() {
+    //udskriv alle markers
+    var markerArray = document.querySelectorAll("#markerLayer img");
+    //  console.log("alle markers", markerArray);
+
+    if (markerArray.length == 0) {
+        //hvis markerArray er lig med nul.. så spørg igen!
+        setTimeout(findAlleMarkers, 50);
+    } else {
+        //marker fundet
+        markerArray.forEach(function (domElement, index) {
+            //giv domElement klassen "marker"
+            domElement.classList.add("marker");
+            //og klassen ""markerclass" fra JSON
+            domElement.classList.add(liste[index].markerclass);
+
+        });
+    }
+}
+
+
+
+
+//lav marker ved brug af clone
 function createMarker(infoMarker) {
     console.log("Lav marker");
     var marker = new google.maps.Marker({
@@ -178,5 +273,7 @@ function createMarker(infoMarker) {
         infoWindow.setContent(clone);
         infoWindow.open(map);
     });
+
+
 
 }
