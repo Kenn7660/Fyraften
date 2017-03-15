@@ -180,7 +180,7 @@ function importData(data) {
             lng: 12.571506
         },
         map: map,
-        icon: "icon.svg"
+        icon: "icon-02.svg"
     });
 
 
