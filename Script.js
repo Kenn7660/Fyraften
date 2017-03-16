@@ -158,9 +158,15 @@ function initMap() {
         west: 12.468509173828124,
     }
 
-    overlay = new google.maps.GroundOverlay('overlayKbh-01.svg', bounds);
+    overlay = new google.maps.GroundOverlay('overlayKbh-01-01.svg', bounds);
     overlay.setMap(map);
     overlay.setOpacity(0);
+
+    var etoverlay = new google.maps.OverlayView();
+    etoverlay.draw = function () {
+        this.getPanes().markerLayer.id = 'markerLayer';
+    };
+    etoverlay.setMap(map);
 
     $.getJSON("fyraften.JSON", importData);
 
@@ -217,7 +223,7 @@ function importData(data) {
         navigator.geolocation.watchPosition(function (position) {
             var minPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
-            map.setCenter(minPos);
+            // map.setCenter(minPos);
             myMarker.setPosition(minPos);
 
             // Vi har flyttet os!
@@ -230,11 +236,14 @@ function importData(data) {
                 var dist = google.maps.geometry.spherical.computeDistanceBetween(markerPos, minPos);
                 console.log("distance to " + interessepunkt.navn + " is " + dist);
                 if (dist < 10) {
+                    console.warn("TÆT PÅ!!");
                     var selector = "#markerLayer .marker." + interessepunkt.markerclass;
+
+                    console.log("find marker: " + selector);
                     var markerElement = document.querySelector(selector);
                     if (markerElement != null) {
                         markerElement.classList.add("active");
-                        //todo: Activate marker for click - har jeg måske gjort?
+
                     }
 
                 }
