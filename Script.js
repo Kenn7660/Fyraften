@@ -7,10 +7,10 @@ var liste;
 var infoMarker;
 var overlay;
 
-window.addEventListener("load", setTimeout(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");
-	}, 2000));
+window.addEventListener("load", setTimeout(function () {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");
+}, 2000));
 
 
 function initMap() {
@@ -162,7 +162,7 @@ function initMap() {
         west: 12.468509173828124,
     }
 
-    overlay = new google.maps.GroundOverlay('overlayKbh-01-01.svg', bounds);
+    overlay = new google.maps.GroundOverlay('overlayKbh-01-01-01.svg', bounds);
     overlay.setMap(map);
     overlay.setOpacity(0);
 
@@ -174,19 +174,18 @@ function initMap() {
 
     $.getJSON("fyraften.JSON", importData);
 
-    document.querySelector("#myonoffswitch").addEventListener("click", function(){
+    document.querySelector("#myonoffswitch").addEventListener("click", function () {
 
-    // find opacity for overlay
-    var opa = overlay.getOpacity();
-    // hvis det er 1, så sæt det til 0
-    if(opa == 0){
-        overlay.setOpacity(1);
-    }
-    else{
-        overlay.setOpacity(0);
-    }
+        // find opacity for overlay
+        var opa = overlay.getOpacity();
+        // hvis det er 1, så sæt det til 0
+        if (opa == 0) {
+            overlay.setOpacity(1);
+        } else {
+            overlay.setOpacity(0);
+        }
 
-});
+    });
 
 }
 
