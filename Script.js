@@ -176,17 +176,6 @@ function initMap() {
 
     document.querySelector("#myonoffswitch").addEventListener("click", function () {
 
-<<<<<<< HEAD
-    // find opacity for overlay
-    var opa = overlay.getOpacity();
-
-    if(opa < 1){
-        fadeUp();
-    }
-    else{
-        fadeDown();
-    }
-=======
         // find opacity for overlay
         var opa = overlay.getOpacity();
         // hvis det er 1, så sæt det til 0
@@ -198,7 +187,6 @@ function initMap() {
             //overlay.setOpacity(0);
             fadeDown();
         }
->>>>>>> origin/master
 
     });
 
