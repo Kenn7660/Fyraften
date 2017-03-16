@@ -178,14 +178,11 @@ function initMap() {
 
     // find opacity for overlay
     var opa = overlay.getOpacity();
-    // hvis det er 1, så sæt det til 0
 
     if(opa < 1){
-        //overlay.setOpacity(1);
         fadeUp();
     }
     else{
-        //overlay.setOpacity(0);
         fadeDown();
     }
 
@@ -213,16 +210,6 @@ function fadeDown() {
     overlay.setOpacity(opa);
 }
 
-
-
-
-
-//    if (overlay.getMap(null)){
-//        overlay.setMap(map);
-//    } else{
-//        overlay.setMap(null);
-//    }
-//});
 
 function importData(data) {
     console.log("har loadet JSON");
