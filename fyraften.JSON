@@ -132,5 +132,16 @@
         },
         "beskrivelse": "historien om Strohense",
         "adresse": "Christiansborg02"
+    },
+    {
+        "id": "stop13",
+        "navn": "slotspladsen",
+        "markerclass": "slotspladsen",
+        "position": {
+            "lat": 55.676398,
+            "lng": 12.581273
+        },
+        "beskrivelse": "5. juni",
+        "adresse": "Christiansborg slotsplads"
     }
 ]
