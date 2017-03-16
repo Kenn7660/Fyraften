@@ -189,14 +189,6 @@ function initMap() {
         fadeDown();
     }
 
-        // find opacity for overlay
-        var opa = overlay.getOpacity();
-        // hvis det er 1, så sæt det til 0
-        if (opa == 0) {
-            overlay.setOpacity(1);
-        } else {
-            overlay.setOpacity(0);
-        }
     });
 
 }
