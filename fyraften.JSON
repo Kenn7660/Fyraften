@@ -16,8 +16,8 @@
         "navn": "barber",
         "markerclass": "barber",
         "position": {
-            "lat": 55.681732,
-            "lng": 12.573912
+            "lat": 55.681896,
+            "lng": 12.573952
         },
         "beskrivelse": "pest - BARBER",
         "adresse": "Peter hvidtfelts stræde 9"
@@ -27,8 +27,8 @@
         "navn": "synagoge",
         "markerclass": "synagoge",
         "position": {
-            "lat": 55.681732,
-            "lng": 12.573912
+            "lat": 55.681283,
+            "lng": 12.573614
         },
         "beskrivelse": "den jødiske synagoge",
         "adresse": "Krystalgade 12"
@@ -39,8 +39,8 @@
         "navn": "rundetårn",
         "markerclass": "rundetårn",
         "position": {
-            "lat": 55.681732,
-            "lng": 12.573912
+            "lat": 55.681516,
+            "lng": 12.575773
         },
         "beskrivelse": "Rundetårn",
         "adresse": "Købmagergade 52A"
@@ -132,5 +132,16 @@
         },
         "beskrivelse": "historien om Strohense",
         "adresse": "Christiansborg02"
+    },
+    {
+        "id": "stop13",
+        "navn": "slotspladsen",
+        "markerclass": "slotspladsen",
+        "position": {
+            "lat": 55.676398,
+            "lng": 12.581273
+        },
+        "beskrivelse": "5. juni",
+        "adresse": "Christiansborg slotsplads"
     }
 ]
