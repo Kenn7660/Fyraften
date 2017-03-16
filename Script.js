@@ -176,6 +176,7 @@ function initMap() {
 
     document.querySelector("#myonoffswitch").addEventListener("click", function () {
 
+<<<<<<< HEAD
     // find opacity for overlay
     var opa = overlay.getOpacity();
 
@@ -185,6 +186,19 @@ function initMap() {
     else{
         fadeDown();
     }
+=======
+        // find opacity for overlay
+        var opa = overlay.getOpacity();
+        // hvis det er 1, så sæt det til 0
+
+        if (opa < 1) {
+            //overlay.setOpacity(1);
+            fadeUp();
+        } else {
+            //overlay.setOpacity(0);
+            fadeDown();
+        }
+>>>>>>> origin/master
 
     });
 
@@ -192,9 +206,9 @@ function initMap() {
 
 function fadeUp() {
     var opa = overlay.getOpacity();
-    if( opa < 1 ) {
-        opa = opa+0.1;
-        setTimeout(fadeUp,50);
+    if (opa < 1) {
+        opa = opa + 0.1;
+        setTimeout(fadeUp, 50);
     }
 
     overlay.setOpacity(opa);
@@ -202,9 +216,9 @@ function fadeUp() {
 
 function fadeDown() {
     var opa = overlay.getOpacity();
-    if( opa > 0 ) {
-        opa = opa-0.1;
-        setTimeout(fadeDown,50);
+    if (opa > 0) {
+        opa = opa - 0.1;
+        setTimeout(fadeDown, 50);
     }
 
     overlay.setOpacity(opa);
@@ -320,6 +334,7 @@ function createMarker(infoMarker) {
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
         clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
+        clone.querySelector(".billede").src = infoMarker.billede;
         infoWindow.setContent(clone);
         infoWindow.open(map);
     });

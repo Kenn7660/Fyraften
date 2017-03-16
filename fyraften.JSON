@@ -23,7 +23,8 @@
         "svarA": "Det var et sterilt fad til barberens redskaber",
         "svarB": "Barbererne udlejede ekstra plads til fadebure",
         "svarC": "Fordi barbererne stod for åreladning og blodet kunne dryppe ned i fadet",
-        "adresse": "Peter hvidtfelts stræde 9"
+        "adresse": "Peter hvidtfelts stræde 9",
+        "billede": "img/1711.svg"
     },
     {
         "id": "stop3",
@@ -34,7 +35,8 @@
             "lng": 12.573614
         },
         "beskrivelse": "den jødiske synagoge",
-        "adresse": "Krystalgade 12"
+        "adresse": "Krystalgade 12",
+        "billede": "img/1943.svg"
     },
 
     {
@@ -46,7 +48,8 @@
             "lng": 12.575773
         },
         "beskrivelse": "Rundetårn",
-        "adresse": "Købmagergade 52A"
+        "adresse": "Købmagergade 52A",
+        "billede": "img/1642.svg"
     },
     {
         "id": "stop5",
@@ -57,7 +60,8 @@
             "lng": 12.576026
         },
         "beskrivelse": "Natmænd og boligsituation",
-        "adresse": "Skindergade 5"
+        "adresse": "Skindergade 5",
+        "billede": "img/1782N.svg"
     },
     {
         "id": "stop6",
@@ -68,7 +72,8 @@
             "lng": 12.575970
         },
         "beskrivelse": "gråbrødre torv - chr. 7 datter fængslet!",
-        "adresse": "Gråbrødrertorv"
+        "adresse": "Gråbrødrertorv",
+        "billede": "img/1650.svg"
     },
     {
         "id": "stop7",
@@ -82,7 +87,8 @@
         "svarA": "Vokshoveder med hatte - specialimporteret fra Frankrig",
         "svarB": "Den første mannequin i DK der kunne dreje rundt",
         "svarC": "En indsamlingskasse til fattige unge piger",
-        "adresse": "vimmelskaftet 38"
+        "adresse": "vimmelskaftet 38",
+        "billede": "img/1844.svg"
     },
     {
         "id": "stop8",
@@ -93,7 +99,8 @@
             "lng": 12.574970
         },
         "beskrivelse": "grundlægger af Carlsberg",
-        "adresse": "brolæggerstræde - brolæggergården nr.5"
+        "adresse": "brolæggerstræde - brolæggergården nr.5",
+        "billede": "img/1847.svg"
     },
     {
         "id": "stop9",
@@ -107,7 +114,8 @@
         "svarA": "Et sted hvor folk kunne holde stævnemøder i ro og mag",
         "svarB": "En forbindelsesvej mellem byportene",
         "svarC": "Et nødtørfshus (toilet)",
-        "adresse": "Magstræde 4"
+        "adresse": "Magstræde 4",
+        "billede": "img/1728.svg"
     },
     {
         "id": "stop10",
@@ -118,7 +126,8 @@
             "lng": 12.577233
         },
         "beskrivelse": "krigen mod sverige",
-        "adresse": "marmorbroen"
+        "adresse": "marmorbroen",
+        "billede": "img/1657.svg"
     },
     {
         "id": "stop11",
@@ -129,7 +138,8 @@
             "lng": 12.577233
         },
         "beskrivelse": "ridebanen",
-        "adresse": "Christiansborg01"
+        "adresse": "Christiansborg01",
+        "billede": "img/1794.svg"
     },
     {
         "id": "stop12",
@@ -140,7 +150,8 @@
             "lng": 12.578724
         },
         "beskrivelse": "historien om Strohense",
-        "adresse": "Christiansborg02"
+        "adresse": "Christiansborg02",
+        "billede": "img/1772.svg"
     },
     {
         "id": "stop13",
@@ -154,6 +165,7 @@
         "svarA": "Det var Frederik d. 7. og grevinde Danners bryllupsdag",
         "svarB": "For at sætte en stopper for en stor demonstration mod kongen",
         "svarC": "For at huske Grevinde Danners ufødte barn",
-        "adresse": "Christiansborg slotsplads"
+        "adresse": "Christiansborg slotsplads",
+        "billede": "img/1849.svg"
     }
 ]
