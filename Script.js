@@ -176,20 +176,42 @@ function initMap() {
 
     document.querySelector("#myonoffswitch").addEventListener("click", function () {
 
-        // find opacity for overlay
-        var opa = overlay.getOpacity();
-        // hvis det er 1, så sæt det til 0
-        if (opa == 0) {
-            overlay.setOpacity(1);
-        } else {
-            overlay.setOpacity(0);
-        }
+    // find opacity for overlay
+    var opa = overlay.getOpacity();
+    // hvis det er 1, så sæt det til 0
+
+    if(opa < 1){
+        //overlay.setOpacity(1);
+        fadeUp();
+    }
+    else{
+        //overlay.setOpacity(0);
+        fadeDown();
+    }
 
     });
 
 }
 
+function fadeUp() {
+    var opa = overlay.getOpacity();
+    if( opa < 1 ) {
+        opa = opa+0.1;
+        setTimeout(fadeUp,50);
+    }
 
+    overlay.setOpacity(opa);
+}
+
+function fadeDown() {
+    var opa = overlay.getOpacity();
+    if( opa > 0 ) {
+        opa = opa-0.1;
+        setTimeout(fadeDown,50);
+    }
+
+    overlay.setOpacity(opa);
+}
 
 
 
