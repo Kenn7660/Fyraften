@@ -157,7 +157,7 @@ function initMap() {
         west: 12.468509173828124,
     }
 
-    var overlay = new google.maps.GroundOverlay('overlayKbh-01.svg', bounds);
+    var overlay = new google.maps.GroundOverlay('overlayKbh-01-01.svg', bounds);
     overlay.setMap(map);
 
 
@@ -207,7 +207,7 @@ function importData(data) {
                     var markerElement = document.querySelector(selector);
                     if (markerElement != null) {
                         markerElement.classList.add("active");
-                        //todo: Activate marker for click - har jeg måske gjort?
+
                     }
 
                 }

@@ -83,7 +83,7 @@ body {
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px;
 }
-.marker.active {
+.active {
     animation-name: pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -96,8 +96,4 @@ body {
     100% {
         transform: scale(1, 1);
     }
-}
-.icon {
-    width: 30px;
-    height: 30px;
 }
