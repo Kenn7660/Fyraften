@@ -57,3 +57,19 @@ html, body {
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px;
 }
+
+.map_load{
+    animation-name: map_animation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes map_animation {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
