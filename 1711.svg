@@ -1,117 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 750 183.6" style="enable-background:new 0 0 750 183.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#145F66;}
-	.st2{fill:none;}
-	.st3{font-family:'MyriadPro-Regular';}
-	.st4{font-size:16px;}
-	.st5{fill:#F6851F;}
-	.st6{display:none;}
-	.st7{display:inline;fill:#F6851F;}
-	.st8{display:inline;fill:#C6D8DB;}
-</style>
-<g id="timeline">
-	<g>
-		<line class="st0" x1="63.5" y1="77" x2="601.6" y2="77"/>
-		<polygon class="st1" points="63.5,77 130.8,76.7 198,76.7 332.6,76.5 467.1,76.7 534.4,76.7 601.6,77 534.4,77.2 467.1,77.3
-			332.6,77.5 198,77.3 130.8,77.2 		"/>
-	</g>
-	<g>
-		<line class="st0" x1="63.5" y1="61.8" x2="63.5" y2="91.2"/>
-		<path class="st1" d="M63.5,61.8c0.2,2.4,0.3,4.9,0.4,7.3C64,71.6,64,74,64,76.5c0,2.4,0,4.9-0.1,7.3l-0.1,3.7
-			c-0.1,1.2-0.1,2.4-0.2,3.7c-0.1-1.2-0.2-2.4-0.2-3.7l-0.1-3.7C63,81.4,63,78.9,63,76.5c0-2.4,0-4.9,0.1-7.3
-			C63.2,66.7,63.3,64.3,63.5,61.8z"/>
-	</g>
-	<g>
-		<line class="st0" x1="601.6" y1="63.5" x2="601.6" y2="92.9"/>
-		<path class="st1" d="M601.6,63.5c0.2,2.4,0.3,4.9,0.4,7.3c0.1,2.4,0.1,4.9,0.1,7.3c0,2.4,0,4.9-0.1,7.3l-0.1,3.7
-			c-0.1,1.2-0.1,2.4-0.2,3.7c-0.1-1.2-0.2-2.4-0.2-3.7l-0.1-3.7c-0.1-2.4-0.1-4.9-0.1-7.3c0-2.4,0-4.9,0.1-7.3
-			C601.3,68.4,601.4,66,601.6,63.5z"/>
-	</g>
-	<g>
-		<line class="st0" x1="375" y1="57.6" x2="375" y2="97.2"/>
-		<path class="st1" d="M375,57.6c0.2,3.3,0.3,6.6,0.4,9.9c0.1,3.3,0.1,6.6,0.1,9.9c0,3.3,0,6.6-0.1,9.9l-0.1,4.9
-			c-0.1,1.6-0.1,3.3-0.2,4.9c-0.1-1.6-0.2-3.3-0.2-4.9l-0.1-4.9c-0.1-3.3-0.1-6.6-0.1-9.9c0-3.3,0-6.6,0.1-9.9
-			C374.7,64.2,374.8,60.9,375,57.6z"/>
-	</g>
-	<g>
-		<line class="st0" x1="219.2" y1="57.6" x2="219.2" y2="97.2"/>
-		<path class="st1" d="M219.2,57.6c0.2,3.3,0.3,6.6,0.4,9.9c0.1,3.3,0.1,6.6,0.1,9.9c0,3.3,0,6.6-0.1,9.9l-0.1,4.9
-			c-0.1,1.6-0.1,3.3-0.2,4.9c-0.1-1.6-0.2-3.3-0.2-4.9l-0.1-4.9c-0.1-3.3-0.1-6.6-0.1-9.9c0-3.3,0-6.6,0.1-9.9
-			C218.9,64.2,219,60.9,219.2,57.6z"/>
-	</g>
-	<g>
-		<line class="st0" x1="513.8" y1="58.6" x2="513.8" y2="98.2"/>
-		<path class="st1" d="M513.8,58.6c0.2,3.3,0.3,6.6,0.4,9.9c0.1,3.3,0.1,6.6,0.1,9.9c0,3.3,0,6.6-0.1,9.9l-0.1,4.9
-			c-0.1,1.6-0.1,3.3-0.2,4.9c-0.1-1.6-0.2-3.3-0.2-4.9l-0.1-4.9c-0.1-3.3-0.1-6.6-0.1-9.9c0-3.3,0-6.6,0.1-9.9
-			C513.5,65.2,513.6,61.9,513.8,58.6z"/>
-	</g>
-	<rect x="50.9" y="97.2" class="st2" width="37.1" height="23.6"/>
-	<text transform="matrix(1 0 0 1 50.8516 108.537)" class="st3 st4">1600</text>
-	<rect x="583.1" y="101.9" class="st2" width="37.1" height="18.2"/>
-	<text transform="matrix(1 0 0 1 583.0906 113.2547)" class="st3 st4">1950</text>
-	<rect x="204" y="99.2" class="st2" width="37.1" height="23.6"/>
-	<text transform="matrix(1 0 0 1 203.9922 110.537)" class="st3 st4">1700</text>
-	<rect x="363.8" y="99.2" class="st2" width="37.1" height="23.6"/>
-	<text transform="matrix(1 0 0 1 363.7759 110.537)" class="st3 st4">1800</text>
-	<rect x="500.3" y="99.2" class="st2" width="37.1" height="23.6"/>
-	<text transform="matrix(1 0 0 1 500.3185 110.537)" class="st3 st4">1900</text>
-</g>
-<g id="Layer_1">
-</g>
-<g id="_x31_711">
-	<circle class="st5" cx="230.8" cy="77.4" r="6.5"/>
-</g>
-<g id="_x31_943" class="st6">
-	<circle class="st7" cx="566.7" cy="77" r="6.5"/>
-	<circle class="st8" cx="230.8" cy="77.4" r="6.5"/>
-</g>
-<g id="_x31_642" class="st6">
-	<circle class="st7" cx="107.6" cy="77.5" r="6.5"/>
-	<circle class="st8" cx="566.7" cy="77" r="6.5"/>
-	<circle class="st8" cx="230.8" cy="77.4" r="6.5"/>
-	<circle class="st8" cx="566.7" cy="76.5" r="6.5"/>
-</g>
-<g id="_x31_728N" class="st6">
-	<circle class="st8" cx="107.6" cy="77.5" r="6.5"/>
-	<circle class="st7" cx="261.4" cy="76.5" r="6.5"/>
-</g>
-<g id="_x31_650" class="st6">
-	<circle class="st7" cx="141.4" cy="76.5" r="6.5"/>
-	<circle class="st8" cx="261.4" cy="76.5" r="6.5"/>
-</g>
-<g id="_x31_844" class="st6">
-	<circle class="st7" cx="434.5" cy="77.5" r="6.5"/>
-	<circle class="st8" cx="141.4" cy="77" r="6.5"/>
-</g>
-<g id="_x31_847" class="st6">
-	<circle class="st7" cx="441" cy="89.5" r="6.5"/>
-	<circle class="st8" cx="434.5" cy="77.5" r="6.5"/>
-</g>
-<g id="_x31_728_1_" class="st6">
-	<circle class="st8" cx="441" cy="89.5" r="6.5"/>
-	<circle class="st7" cx="261.4" cy="92.5" r="6.5"/>
-</g>
-<g id="_x31_657" class="st6">
-	<circle class="st7" cx="162.6" cy="76.5" r="6.5"/>
-	<circle class="st8" cx="261.4" cy="76.5" r="6.5"/>
-	<circle class="st8" cx="261.4" cy="92.5" r="6.5"/>
-</g>
-<g id="_x31_794" class="st6">
-	<circle class="st7" cx="359.6" cy="77.4" r="6.5"/>
-	<circle class="st7" cx="497.3" cy="77" r="6.5"/>
-	<circle class="st8" cx="162.6" cy="76.5" r="6.5"/>
-</g>
-<g id="_x31_772" class="st6">
-	<circle class="st7" cx="337.8" cy="77.5" r="6.5"/>
-	<circle class="st8" cx="359.6" cy="77.5" r="6.5"/>
-	<circle class="st8" cx="497.3" cy="77" r="6.5"/>
-</g>
-<g id="_x31_849" class="st6">
-	<circle class="st7" cx="447.5" cy="77.4" r="6.5"/>
-	<circle class="st8" cx="337.8" cy="77.5" r="6.5"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="739.22" height="84.65" viewBox="0 0 739.22 84.65">
+  <title>1711</title>
+  <g id="timeline">
+    <g>
+      <line x1="16.42" y1="25.16" x2="715.16" y2="25.16" fill="#fff"/>
+      <polygon points="16.42 25.16 103.77 24.92 191.11 24.83 365.79 24.66 540.47 24.83 627.82 24.92 715.16 25.16 627.82 25.41 540.47 25.5 365.79 25.66 191.11 25.5 103.77 25.41 16.42 25.16" fill="#145f66"/>
+    </g>
+    <g>
+      <line x1="16.42" y1="5.46" x2="16.42" y2="43.57" fill="#fff"/>
+      <path d="M121.22,79.26c.21,3.18.3,6.35.38,9.53s.1,6.35.12,9.53,0,6.35-.12,9.53l-.14,4.76c-.08,1.59-.13,3.18-.25,4.76-.11-1.59-.16-3.18-.25-4.76l-.14-4.76c-.09-3.18-.1-6.35-.12-9.53s0-6.35.12-9.53S121,82.44,121.22,79.26Z" transform="translate(-104.8 -73.8)" fill="#145f66"/>
+    </g>
+    <g>
+      <line x1="715.16" y1="7.66" x2="715.16" y2="45.77" fill="#fff"/>
+      <path d="M820,81.46c.21,3.18.3,6.35.38,9.53s.1,6.35.12,9.53,0,6.35-.12,9.53l-.14,4.76c-.08,1.59-.13,3.18-.25,4.76-.11-1.59-.16-3.18-.25-4.76l-.14-4.76c-.09-3.18-.1-6.35-.12-9.53s0-6.35.12-9.53S819.75,84.63,820,81.46Z" transform="translate(-104.8 -73.8)" fill="#145f66"/>
+    </g>
+    <g>
+      <line x1="420.9" x2="420.9" y2="51.38" fill="#fff"/>
+      <path d="M525.7,73.8c.21,4.28.3,8.56.38,12.84s.07,8.56.12,12.84,0,8.56-.11,12.84l-.14,6.42c-.08,2.14-.13,4.28-.25,6.42-.11-2.14-.16-4.28-.25-6.42l-.14-6.42c-.08-4.28-.08-8.56-.11-12.84s0-8.56.12-12.84S525.49,78.08,525.7,73.8Z" transform="translate(-104.8 -73.8)" fill="#145f66"/>
+    </g>
+    <g>
+      <line x1="218.66" x2="218.66" y2="51.38" fill="#fff"/>
+      <path d="M323.46,73.8c.21,4.28.3,8.56.38,12.84s.07,8.56.12,12.84,0,8.56-.11,12.84l-.14,6.42c-.08,2.14-.13,4.28-.25,6.42-.11-2.14-.16-4.28-.25-6.42l-.14-6.42c-.08-4.28-.08-8.56-.11-12.84s0-8.56.12-12.84S323.26,78.08,323.46,73.8Z" transform="translate(-104.8 -73.8)" fill="#145f66"/>
+    </g>
+    <g>
+      <line x1="601.12" y1="1.3" x2="601.12" y2="52.68" fill="#fff"/>
+      <path d="M705.92,75.1c.21,4.28.3,8.56.38,12.84s.07,8.56.12,12.84,0,8.56-.11,12.84l-.14,6.42c-.08,2.14-.13,4.28-.25,6.42-.11-2.14-.16-4.28-.25-6.42l-.14-6.42c-.08-4.28-.08-8.56-.11-12.84s0-8.56.12-12.84S705.72,79.38,705.92,75.1Z" transform="translate(-104.8 -73.8)" fill="#145f66"/>
+    </g>
+    <text transform="translate(0 66.13)" font-size="20.78" fill="#231f20" font-family="MyriadPro-Regular, Myriad Pro">1600</text>
+    <text transform="translate(691.1 72.25)" font-size="20.78" fill="#231f20" font-family="MyriadPro-Regular, Myriad Pro">1950</text>
+    <text transform="translate(198.85 68.73)" font-size="20.78" fill="#231f20" font-family="MyriadPro-Regular, Myriad Pro">1700</text>
+    <text transform="translate(406.33 68.73)" font-size="20.78" fill="#231f20" font-family="MyriadPro-Regular, Myriad Pro">1800</text>
+    <text transform="translate(583.62 68.73)" font-size="20.78" fill="#231f20" font-family="MyriadPro-Regular, Myriad Pro">1900</text>
+  </g>
+  <g id="_1711" data-name="1711">
+    <circle cx="233.67" cy="25.69" r="8.41" fill="#f6851f"/>
+  </g>
 </svg>
