@@ -7,6 +7,10 @@ var liste;
 var infoMarker;
 var overlay;
 
+window.addEventListener("load", setTimeout(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");
+	}, 2000));
 
 
 function initMap() {

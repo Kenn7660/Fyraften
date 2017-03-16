@@ -19,7 +19,10 @@
             "lat": 55.681896,
             "lng": 12.573952
         },
-        "beskrivelse": "pest - BARBER",
+        "question": "Hvorfor har barberer et lille fad som symbol?",
+        "svarA": "Det var et sterilt fad til barberens redskaber",
+        "svarB": "Barbererne udlejede ekstra plads til fadebure",
+        "svarC": "Fordi barbererne stod for åreladning og blodet kunne dryppe ned i fadet",
         "adresse": "Peter hvidtfelts stræde 9"
     },
     {
@@ -75,7 +78,10 @@
             "lat": 55.678699,
             "lng": 12.574868
         },
-        "beskrivelse": "louises hus - trekantsdrama",
+        "question": "Hvad indførte Louise Rasmussen i sin butik?",
+        "svarA": "Vokshoveder med hatte - specialimporteret fra Frankrig",
+        "svarB": "Den første mannequin i DK der kunne dreje rundt",
+        "svarC": "En indsamlingskasse til fattige unge piger",
         "adresse": "vimmelskaftet 38"
     },
     {
@@ -97,7 +103,10 @@
             "lat": 55.676648,
             "lng": 12.576080
         },
-        "beskrivelse": "lokumsområdet",
+        "question": "Hvad betyder mag?",
+        "svarA": "Et sted hvor folk kunne holde stævnemøder i ro og mag",
+        "svarB": "En forbindelsesvej mellem byportene",
+        "svarC": "Et nødtørfshus (toilet)",
         "adresse": "Magstræde 4"
     },
     {
@@ -119,12 +128,12 @@
             "lat": 55.675051,
             "lng": 12.577233
         },
-        "beskrivelse": "ridenaben",
+        "beskrivelse": "ridebanen",
         "adresse": "Christiansborg01"
     },
     {
         "id": "stop12",
-        "navn": "christiansborg",
+        "navn": "christiansborgTeateret",
         "markerclass": "christiansborg",
         "position": {
             "lat": 55.675386,
@@ -141,7 +150,10 @@
             "lat": 55.676398,
             "lng": 12.581273
         },
-        "beskrivelse": "5. juni",
+        "question": "Hvorfor var det lige netop d. 5. juni vi fik grundloven?",
+        "svarA": "Det var Frederik d. 7. og grevinde Danners bryllupsdag",
+        "svarB": "For at sætte en stopper for en stor demonstration mod kongen",
+        "svarC": "For at huske Grevinde Danners ufødte barn",
         "adresse": "Christiansborg slotsplads"
     }
 ]
