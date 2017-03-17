@@ -213,17 +213,6 @@ function fadeDown() {
     overlay.setOpacity(opa);
 }
 
-
-
-
-
-//    if (overlay.getMap(null)){
-//        overlay.setMap(map);
-//    } else{
-//        overlay.setMap(null);
-//    }
-//});
-
 function importData(data) {
     console.log("har loadet JSON");
     liste = data;
@@ -317,6 +306,7 @@ function createMarker(infoMarker) {
         position: infoMarker.position,
         map: map,
         title: infoMarker.navn,
+        icon: infoMarker.icon,
         optimized: false
     });
 
