@@ -3,6 +3,7 @@
         "id": "stop1",
         "navn": "nørreport",
         "markerclass": "noerreport",
+        "icon": "norreport.svg",
         "position": {
             "lat": 55.683295,
             "lng": 12.571506
@@ -15,6 +16,7 @@
         "id": "stop2",
         "navn": "barber",
         "markerclass": "barber",
+        "icon": "pest.svg",
         "position": {
             "lat": 55.681896,
             "lng": 12.573952
@@ -131,6 +133,7 @@
         "id": "stop10",
         "navn": "marmorbroen",
         "markerclass": "marmorbroen",
+        "icon": "marmorbroen.svg",
         "position": {
             "lat": 55.675051,
             "lng": 12.577233
@@ -169,6 +172,7 @@
         "id": "stop13",
         "navn": "slotspladsen",
         "markerclass": "slotspladsen",
+        "icon": "slotspladsen.svg",
         "position": {
             "lat": 55.676398,
             "lng": 12.581273
