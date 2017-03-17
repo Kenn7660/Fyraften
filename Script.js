@@ -341,6 +341,7 @@ function createMarker(infoMarker) {
         clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
         clone.querySelector(".slide1").src = infoMarker.slide1;
         clone.querySelector(".slide2").src = infoMarker.slide2;
+        clone.querySelector(".slide3").src = infoMarker.slide3;
         clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
         infoWindow.open(map);

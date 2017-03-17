@@ -24,9 +24,7 @@
         "svarB": "Barbererne udlejede ekstra plads til fadebure",
         "svarC": "Fordi barbererne stod for åreladning og blodet kunne dryppe ned i fadet",
         "adresse": "Peter hvidtfelts stræde 9",
-        "timeLine": "img/1711.svg",
-        "slide1": "img/billede1.jpg",
-        "slide2": "img/billede2.jpg"
+        "timeLine": "img/1711.svg"
     },
     {
         "id": "stop3",
@@ -39,7 +37,10 @@
         },
         "beskrivelse": "den jødiske synagoge",
         "adresse": "Krystalgade 12",
-        "timeLine": "img/1943.svg"
+        "timeLine": "img/1943.svg",
+        "slide1": "img/synagoge-01-01.svg",
+        "slide2": "img/synagoge-02-01.svg",
+        "slide3": "img/synagoge-03-01.svg"
     },
 
     {
