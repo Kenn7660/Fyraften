@@ -32,6 +32,7 @@
         "id": "stop3",
         "navn": "synagoge",
         "markerclass": "synagoge",
+        "icon": "synagoge.svg",
         "position": {
             "lat": 55.681283,
             "lng": 12.573614
@@ -45,6 +46,7 @@
         "id": "stop4",
         "navn": "rundetårn",
         "markerclass": "rundetårn",
+        "icon": "rundetarn.svg",
         "position": {
             "lat": 55.681516,
             "lng": 12.575773
@@ -57,6 +59,7 @@
         "id": "stop5",
         "navn": "natmænd",
         "markerclass": "natmaend",
+        "icon": "natmand.svg",
         "position": {
             "lat": 55.680796,
             "lng": 12.576026
@@ -69,6 +72,7 @@
         "id": "stop6",
         "navn": "gråbrødretorv",
         "markerclass": "gbtorv",
+        "icon": "blatarn.svg",
         "position": {
             "lat": 55.679909,
             "lng": 12.575970
@@ -81,6 +85,7 @@
         "id": "stop7",
         "navn": "louisesHus",
         "markerclass": "louiseshus",
+        "icon":"louiseshus.svg",
         "position": {
             "lat": 55.678699,
             "lng": 12.574868
@@ -96,6 +101,7 @@
         "id": "stop8",
         "navn": "JCJacobsensBarndomshjem",
         "markerclass": "jcjabson",
+        "icon": "carlsberg.svg",
         "position": {
             "lat": 55.677740,
             "lng": 12.574970
@@ -108,6 +114,7 @@
         "id": "stop9",
         "navn": "magstræde",
         "markerclass": "magstraede",
+        "icon": "magstade.svg",
         "position": {
             "lat": 55.676648,
             "lng": 12.576080
@@ -135,9 +142,10 @@
         "id": "stop11",
         "navn": "christiansborgRideBane",
         "markerclass": "ridebane",
+        "icon": "ridepladsen.svg",
         "position": {
-            "lat": 55.675051,
-            "lng": 12.577233
+            "lat": 55.675396,
+            "lng": 12.578062
         },
         "beskrivelse": "ridebanen",
         "adresse": "Christiansborg01",
@@ -147,9 +155,10 @@
         "id": "stop12",
         "navn": "christiansborgTeateret",
         "markerclass": "christiansborg",
+        "icon": "teateret.svg",
         "position": {
-            "lat": 55.675386,
-            "lng": 12.578724
+            "lat": 55.675085,
+            "lng": 12.579432
         },
         "beskrivelse": "historien om Strohense",
         "adresse": "Christiansborg02",
