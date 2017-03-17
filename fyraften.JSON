@@ -3,6 +3,7 @@
         "id": "stop1",
         "navn": "nørreport",
         "markerclass": "noerreport",
+        "icon": "norreport.svg",
         "position": {
             "lat": 55.683295,
             "lng": 12.571506
