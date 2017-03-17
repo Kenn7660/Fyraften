@@ -174,6 +174,8 @@ function initMap() {
 
     $.getJSON("fyraften.JSON", importData);
 
+/*Toggle switch */
+
     document.querySelector("#myonoffswitch").addEventListener("click", function () {
 
         // find opacity for overlay
@@ -314,6 +316,10 @@ function createMarker(infoMarker) {
         position: infoMarker.position,
     });
 
+
+/*infobox*/
+
+
     marker.addListener("click", function () {
         var clone = document.querySelector("#template_info").content.cloneNode(true);
         console.log("der er blevet klikket på ikon");
@@ -322,11 +328,33 @@ function createMarker(infoMarker) {
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
         clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
-        clone.querySelector(".billede").src = infoMarker.billede;
+        clone.querySelector(".slide1").src = infoMarker.slide1;
+        clone.querySelector(".slide2").src = infoMarker.slide2;
+        clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
         infoWindow.open(map);
+
+        showDivs(slideIndex);
     });
 
 
 
+}
+
+var slideIndex = 1;
+
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.querySelectorAll(".slide");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
 }

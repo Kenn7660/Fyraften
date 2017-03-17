@@ -24,7 +24,9 @@
         "svarB": "Barbererne udlejede ekstra plads til fadebure",
         "svarC": "Fordi barbererne stod for åreladning og blodet kunne dryppe ned i fadet",
         "adresse": "Peter hvidtfelts stræde 9",
-        "billede": "img/1711.svg"
+        "timeLine": "img/1711.svg",
+        "slide1": "img/billede1.jpg",
+        "slide2": "img/billede2.jpg"
     },
     {
         "id": "stop3",
@@ -36,7 +38,7 @@
         },
         "beskrivelse": "den jødiske synagoge",
         "adresse": "Krystalgade 12",
-        "billede": "img/1943.svg"
+        "timeLine": "img/1943.svg"
     },
 
     {
@@ -49,7 +51,7 @@
         },
         "beskrivelse": "Rundetårn",
         "adresse": "Købmagergade 52A",
-        "billede": "img/1642.svg"
+        "timeLine": "img/1642.svg"
     },
     {
         "id": "stop5",
@@ -61,7 +63,7 @@
         },
         "beskrivelse": "Natmænd og boligsituation",
         "adresse": "Skindergade 5",
-        "billede": "img/1782N.svg"
+        "timeLine": "img/1782N.svg"
     },
     {
         "id": "stop6",
@@ -73,7 +75,7 @@
         },
         "beskrivelse": "gråbrødre torv - chr. 7 datter fængslet!",
         "adresse": "Gråbrødrertorv",
-        "billede": "img/1650.svg"
+        "timeLine": "img/1650.svg"
     },
     {
         "id": "stop7",
@@ -88,7 +90,7 @@
         "svarB": "Den første mannequin i DK der kunne dreje rundt",
         "svarC": "En indsamlingskasse til fattige unge piger",
         "adresse": "vimmelskaftet 38",
-        "billede": "img/1844.svg"
+        "timeLine": "img/1844.svg"
     },
     {
         "id": "stop8",
@@ -100,7 +102,7 @@
         },
         "beskrivelse": "grundlægger af Carlsberg",
         "adresse": "brolæggerstræde - brolæggergården nr.5",
-        "billede": "img/1847.svg"
+        "timeLine": "img/1847.svg"
     },
     {
         "id": "stop9",
@@ -115,7 +117,7 @@
         "svarB": "En forbindelsesvej mellem byportene",
         "svarC": "Et nødtørfshus (toilet)",
         "adresse": "Magstræde 4",
-        "billede": "img/1728.svg"
+        "timeLine": "img/1728.svg"
     },
     {
         "id": "stop10",
@@ -127,7 +129,7 @@
         },
         "beskrivelse": "krigen mod sverige",
         "adresse": "marmorbroen",
-        "billede": "img/1657.svg"
+        "timeLine": "img/1657.svg"
     },
     {
         "id": "stop11",
@@ -139,7 +141,7 @@
         },
         "beskrivelse": "ridebanen",
         "adresse": "Christiansborg01",
-        "billede": "img/1794.svg"
+        "timeLine": "img/1794.svg"
     },
     {
         "id": "stop12",
@@ -151,7 +153,7 @@
         },
         "beskrivelse": "historien om Strohense",
         "adresse": "Christiansborg02",
-        "billede": "img/1772.svg"
+        "timeLine": "img/1772.svg"
     },
     {
         "id": "stop13",
@@ -166,6 +168,6 @@
         "svarB": "For at sætte en stopper for en stor demonstration mod kongen",
         "svarC": "For at huske Grevinde Danners ufødte barn",
         "adresse": "Christiansborg slotsplads",
-        "billede": "img/1849.svg"
+        "timeLine": "img/1849.svg"
     }
 ]
