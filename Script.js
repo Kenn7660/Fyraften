@@ -176,18 +176,17 @@ function initMap() {
 
     document.querySelector("#myonoffswitch").addEventListener("click", function () {
 
-    // find opacity for overlay
-    var opa = overlay.getOpacity();
-    // hvis det er 1, så sæt det til 0
+        // find opacity for overlay
+        var opa = overlay.getOpacity();
+        // hvis det er 1, så sæt det til 0
 
-    if(opa < 1){
-        //overlay.setOpacity(1);
-        fadeUp();
-    }
-    else{
-        //overlay.setOpacity(0);
-        fadeDown();
-    }
+        if (opa < 1) {
+            //overlay.setOpacity(1);
+            fadeUp();
+        } else {
+            //overlay.setOpacity(0);
+            fadeDown();
+        }
 
     });
 
@@ -195,9 +194,9 @@ function initMap() {
 
 function fadeUp() {
     var opa = overlay.getOpacity();
-    if( opa < 1 ) {
-        opa = opa+0.1;
-        setTimeout(fadeUp,50);
+    if (opa < 1) {
+        opa = opa + 0.1;
+        setTimeout(fadeUp, 50);
     }
 
     overlay.setOpacity(opa);
@@ -205,14 +204,18 @@ function fadeUp() {
 
 function fadeDown() {
     var opa = overlay.getOpacity();
-    if( opa > 0 ) {
-        opa = opa-0.1;
-        setTimeout(fadeDown,50);
+    if (opa > 0) {
+        opa = opa - 0.1;
+        setTimeout(fadeDown, 50);
     }
 
     overlay.setOpacity(opa);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 function importData(data) {
     console.log("har loadet JSON");
     liste = data;
@@ -257,9 +260,15 @@ function importData(data) {
                     var markerElement = document.querySelector(selector);
                     if (markerElement != null) {
                         markerElement.classList.add("active");
+                        interessepunkt.selveMarkeren.setClickable(true);
 
                     }
 
+                } else {
+                    if (markerElement != null) {
+                        markerElement.classList.remove("active");
+                        interessepunkt.selveMarkeren.setClickable(false);
+                    }
                 }
             });
 
@@ -306,9 +315,18 @@ function createMarker(infoMarker) {
         position: infoMarker.position,
         map: map,
         title: infoMarker.navn,
+<<<<<<< HEAD
         icon: infoMarker.icon,
         optimized: false
+=======
+        optimized: false,
+        clickable: false
+
+>>>>>>> origin/master
     });
+
+    infoMarker.selveMarkeren = marker;
+
 
     var infoWindow = new google.maps.InfoWindow({
         content: "Bliver overskrevet",
@@ -323,6 +341,7 @@ function createMarker(infoMarker) {
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
         clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
+        clone.querySelector(".billede").src = infoMarker.billede;
         infoWindow.setContent(clone);
         infoWindow.open(map);
     });
