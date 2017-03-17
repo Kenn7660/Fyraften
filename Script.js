@@ -212,10 +212,6 @@ function fadeDown() {
     overlay.setOpacity(opa);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 function importData(data) {
     console.log("har loadet JSON");
     liste = data;
@@ -315,14 +311,10 @@ function createMarker(infoMarker) {
         position: infoMarker.position,
         map: map,
         title: infoMarker.navn,
-<<<<<<< HEAD
         icon: infoMarker.icon,
-        optimized: false
-=======
+        optimized: false,
         optimized: false,
         clickable: false
-
->>>>>>> origin/master
     });
 
     infoMarker.selveMarkeren = marker;
