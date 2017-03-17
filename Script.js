@@ -257,9 +257,15 @@ function importData(data) {
                     var markerElement = document.querySelector(selector);
                     if (markerElement != null) {
                         markerElement.classList.add("active");
+                        interessepunkt.selveMarkeren.setClickable(true);
 
                     }
 
+                } else {
+                    if (markerElement != null) {
+                        markerElement.classList.remove("active");
+                        interessepunkt.selveMarkeren.setClickable(false);
+                    }
                 }
             });
 
@@ -306,8 +312,13 @@ function createMarker(infoMarker) {
         position: infoMarker.position,
         map: map,
         title: infoMarker.navn,
-        optimized: false
+        optimized: false,
+        clickable: false
+
     });
+
+    infoMarker.selveMarkeren = marker;
+
 
     var infoWindow = new google.maps.InfoWindow({
         content: "Bliver overskrevet",
