@@ -128,7 +128,7 @@ html, body {
 .timeLine {
     width: 350px;
 }
-<<<<<<< HEAD
+
 
 .slide {
     position:relative;
@@ -147,7 +147,7 @@ html, body {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-=======
+
 .marker.active {
     animation-name: pulse;
     animation-duration: 3s;
@@ -160,5 +160,4 @@ html, body {
     100% {
         transform: scale(1, 1);
     }
->>>>>>> origin/master
 }
