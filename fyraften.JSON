@@ -15,6 +15,7 @@
     {
         "id": "stop2",
         "navn": "barber",
+        "infotype": "quiz",
         "markerclass": "barber",
         "icon": "pest.svg",
         "position": {
@@ -64,6 +65,7 @@
     {
         "id": "stop5",
         "navn": "natmænd",
+        "infotype": "instagram",
         "markerclass": "natmaend",
         "icon": "natmand.svg",
         "position": {
@@ -72,11 +74,13 @@
         },
         "beskrivelse": "Natmænd og boligsituation",
         "adresse": "Skindergade 5",
+        "insta": "img/Insta.jpg",
         "timeLine": "img/1782N.svg"
     },
     {
         "id": "stop6",
         "navn": "gråbrødretorv",
+        "infotype": "instagram",
         "markerclass": "gbtorv",
         "icon": "blatarn.svg",
         "position": {
@@ -90,6 +94,7 @@
     {
         "id": "stop7",
         "navn": "louisesHus",
+        "infotype": "quiz",
         "markerclass": "louiseshus",
         "icon":"louiseshus.svg",
         "position": {
@@ -122,6 +127,7 @@
     {
         "id": "stop9",
         "navn": "magstræde",
+        "infotype": "quiz",
         "markerclass": "magstraede",
         "icon": "magstade.svg",
         "position": {
@@ -170,6 +176,7 @@
     {
         "id": "stop12",
         "navn": "christiansborgTeateret",
+        "infotype": "instagram",
         "markerclass": "christiansborg",
         "icon": "teateret.svg",
         "position": {
@@ -183,6 +190,7 @@
     {
         "id": "stop13",
         "navn": "slotspladsen",
+        "infotype": "quiz",
         "markerclass": "slotspladsen",
         "icon": "slotspladsen.svg",
         "position": {

@@ -249,9 +249,9 @@ function importData(data) {
 
                 // beregn afstand mellem bruger og marker
                 var dist = google.maps.geometry.spherical.computeDistanceBetween(markerPos, minPos);
-                console.log("distance to " + interessepunkt.navn + " is " + dist);
+              //  console.log("distance to " + interessepunkt.navn + " is " + dist);
                 if (dist < 20) {
-                    console.warn("TÆT PÅ!!");
+                //    console.warn("TÆT PÅ!!");
                     var selector = "#markerLayer .marker." + interessepunkt.markerclass;
 
                     console.log("find marker: " + selector);
@@ -308,7 +308,7 @@ function findAlleMarkers() {
 
 //lav marker ved brug af clone
 function createMarker(infoMarker) {
-    console.log("Lav marker");
+    console.log("Lav marker: ", infoMarker);
     var marker = new google.maps.Marker({
         position: infoMarker.position,
         map: map,
@@ -332,10 +332,21 @@ function createMarker(infoMarker) {
 
 
     marker.addListener("click", function () {
-        var clone = document.querySelector("#template_info").content.cloneNode(true);
-        console.log("der er blevet klikket på ikon");
+        console.log("der er blevet klikket på ikon: ", infoMarker);
         //set data in clone (from infoMarker)
 
+        if(infoMarker.infotype == "instagram") {
+        var clone = document.querySelector("#template_insta").content.cloneNode(true);
+        clone.querySelector(".navn").textContent = infoMarker.navn;
+        clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
+        clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
+        clone.querySelector(".insta").src = infoMarker.insta;
+        infoWindow.setContent(clone);
+
+        } else if(infoMarker.infotype == "quiz") {
+
+        } else {
+        var clone = document.querySelector("#template_billede").content.cloneNode(true);
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
         clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
@@ -344,6 +355,9 @@ function createMarker(infoMarker) {
         clone.querySelector(".slide3").src = infoMarker.slide3;
         clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
+        }
+
+
         infoWindow.open(map);
 
         showDivs(slideIndex);
