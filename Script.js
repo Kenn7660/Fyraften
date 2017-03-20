@@ -340,7 +340,7 @@ function createMarker(infoMarker) {
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
         clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
-        clone.querySelector(".insta").src = infoMarker.insta;
+        clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
 
         } else if(infoMarker.infotype == "quiz") {

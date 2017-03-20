@@ -127,6 +127,7 @@ html, body {
 
 .timeLine {
     width: 350px;
+    display: block;
 }
 
 
