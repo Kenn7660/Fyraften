@@ -65,16 +65,18 @@
     {
         "id": "stop5",
         "navn": "natmænd",
-        "infotype": "instagram",
+        "infotype": "quiz",
         "markerclass": "natmaend",
         "icon": "natmand.svg",
         "position": {
             "lat": 55.680796,
             "lng": 12.576026
         },
-        "beskrivelse": "Natmænd og boligsituation",
+        "question": "Hvorfor er der træbelægning i de gamle porte?",
+        "svarA": "Så borgerskabets fine damer ikke trådte skævt på brostenene på vej ud til kareterne",
+        "svarB": "Der fandtes ikke gummihjul på hestevognene, så  for  at dæmpe larmen fra hjulene, lagde man trægulve i portene",
+        "svarC": "De hjemløse og forældreløse kunne få lov at overnatte i portene og lå derfor ikke direkte på de kolde brosten",
         "adresse": "Skindergade 5",
-        "insta": "img/Insta.jpg",
         "timeLine": "img/1782N.svg"
     },
     {
@@ -89,6 +91,7 @@
         },
         "beskrivelse": "gråbrødre torv - chr. 7 datter fængslet!",
         "adresse": "Gråbrødrertorv",
+        "insta": "img/Insta.jpg",
         "timeLine": "img/1650.svg"
     },
     {
