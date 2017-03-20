@@ -250,7 +250,7 @@ function importData(data) {
                 // beregn afstand mellem bruger og marker
                 var dist = google.maps.geometry.spherical.computeDistanceBetween(markerPos, minPos);
                 console.log("distance to " + interessepunkt.navn + " is " + dist);
-                if (dist < 10) {
+                if (dist < 20) {
                     console.warn("TÆT PÅ!!");
                     var selector = "#markerLayer .marker." + interessepunkt.markerclass;
 

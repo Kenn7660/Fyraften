@@ -56,7 +56,10 @@
         },
         "beskrivelse": "Rundetårn",
         "adresse": "Købmagergade 52A",
-        "timeLine": "img/1642.svg"
+        "timeLine": "img/1642.svg",
+        "slide1": "img/rundetårn-01.svg",
+        "slide2": "img/rundetårn-02-01.svg",
+        "slide3": "img/rundetårn-03-01.jpg"
     },
     {
         "id": "stop5",
@@ -111,7 +114,10 @@
         },
         "beskrivelse": "grundlægger af Carlsberg",
         "adresse": "brolæggerstræde - brolæggergården nr.5",
-        "timeLine": "img/1847.svg"
+        "timeLine": "img/1847.svg",
+        "slide1": "img/carlsberg-01-01.svg",
+        "slide2": "img/carlsberg-02-01.svg",
+        "slide3": "img/carlsberg-03-01.svg"
     },
     {
         "id": "stop9",
@@ -140,7 +146,10 @@
         },
         "beskrivelse": "krigen mod sverige",
         "adresse": "marmorbroen",
-        "timeLine": "img/1657.svg"
+        "timeLine": "img/1657.svg",
+        "slide1": "img/marmorbroen-01.svg",
+        "slide2": "img/marmorbroen-02-1.jpg",
+        "slide3": "img/marmorbroen-03-1.jpg"
     },
     {
         "id": "stop11",
@@ -153,7 +162,10 @@
         },
         "beskrivelse": "ridebanen",
         "adresse": "Christiansborg01",
-        "timeLine": "img/1794.svg"
+        "timeLine": "img/1794.svg",
+        "slide1": "img/ridebane-01-01.svg",
+        "slide2": "img/ridebane-02-01.svg",
+        "slide3": "img/ridebane-03-01.svg"
     },
     {
         "id": "stop12",
