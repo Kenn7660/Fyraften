@@ -9,7 +9,11 @@
             "lng": 12.571506
         },
         "beskrivelse": "Det er her vi starter",
-        "adresse": "Nørreport"
+        "adresse": "Nørreport",
+        "slide1": "img/logo_01.jpg",
+        "slide2": "img/norreportstation.jpg",
+        "slide3": "img/kaffetaarnet.jpg",
+        "timeLine": "img/timeline-01.svg"
 
     },
     {
@@ -165,14 +169,14 @@
     },
     {
         "id": "stop11",
-        "navn": "Christiansborg RideBane",
+        "navn": "Christiansborg Ridebane",
         "markerclass": "ridebane",
         "icon": "ridepladsen.svg",
         "position": {
             "lat": 55.675396,
             "lng": 12.578062
         },
-        "beskrivelse": "ridebanen",
+        "beskrivelse": "Ridebanen",
         "adresse": "Christiansborg",
         "timeLine": "img/1794.svg",
         "slide1": "img/ridebane-01-01.svg",
