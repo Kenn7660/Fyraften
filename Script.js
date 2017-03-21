@@ -14,7 +14,7 @@ window.addEventListener("load", setTimeout(function () {
 
 
 function initMap() {
-    console.log("Map bliver vist")
+    console.log("Map bliver vist");
     map = new google.maps.Map(document.querySelector("#map"), {
         zoom: 13,
         center: myCenter,
@@ -159,8 +159,8 @@ function initMap() {
         north: 55.70298416103664,
         south: 55.663595921599494,
         east: 12.674502826171874,
-        west: 12.468509173828124,
-    }
+        west: 12.468509173828124
+    };
 
     overlay = new google.maps.GroundOverlay('overlayKbh-01-01-01.svg', bounds);
     overlay.setMap(map);
@@ -250,7 +250,7 @@ function importData(data) {
                 // beregn afstand mellem bruger og marker
                 var dist = google.maps.geometry.spherical.computeDistanceBetween(markerPos, minPos);
               //  console.log("distance to " + interessepunkt.navn + " is " + dist);
-                if (dist < 20) {
+                if (dist < 50) {
                 //    console.warn("TÆT PÅ!!");
                     var selector = "#markerLayer .marker." + interessepunkt.markerclass;
 
@@ -315,7 +315,6 @@ function createMarker(infoMarker) {
         title: infoMarker.navn,
         icon: infoMarker.icon,
         optimized: false,
-        optimized: false,
         clickable: false
     });
 
@@ -324,7 +323,7 @@ function createMarker(infoMarker) {
 
     var infoWindow = new google.maps.InfoWindow({
         content: "Bliver overskrevet",
-        position: infoMarker.position,
+        position: infoMarker.position
     });
 
 
