@@ -356,8 +356,16 @@ function createMarker(infoMarker) {
              infoWindow.open(map);
         quiz();
 
+        } else if(infoMarker.infotype == "rating") {
+        var clone = document.querySelector("#template_rating").content.cloneNode(true);
+        clone.querySelector(".navn").innerHTML = infoMarker.navn;
+        clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
+        infoWindow.setContent(clone);
+             infoWindow.open(map);
+        rating();
+        nytIndhold();
 
-        } else {
+        }else {
         var clone = document.querySelector("#template_billede").content.cloneNode(true);
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
@@ -411,3 +419,39 @@ else {
 { $("#closing").show("slow"); };
 }
     )};
+
+var a;
+var clicked;
+
+
+function rating() {
+
+    $('.rating-circle').click(function () {
+
+    $('.rating-circle').removeClass('rating-hover');
+    $('.rating-circle').removeClass('rating-chosen');
+
+    $(this).addClass('rating-chosen');
+    $(this).prevAll().addClass('rating-chosen');
+
+    a = $(this).index();
+
+    clicked = $($('.rating-circle').get(a));
+
+    $(clicked).data('clicked', true);
+});
+
+
+}
+
+function nytIndhold() {
+    $('#klikHer').click(function(){
+        $("#indsend").css("display", "block");
+        $("#rating-container").css("display", "none");
+        $("#kommentar").css("display", "none");
+        $("#klikHer").css("display", "none");
+        $(".navn").css("display", "none");
+        $(".beskrivelse").css("display", "none");
+    });
+}
+

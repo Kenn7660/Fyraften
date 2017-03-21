@@ -52,6 +52,28 @@
         <img class="timeLine" src="billede.jpg" alt="billedtekst">
     </template>
 
+    <template id="template_rating">
+        <div class="navn">
+            <h2><strong>NAVN</strong></h2></div>
+        <div class="beskrivelse">BESKRIVELSE</div>
+      <div id="rating-container">
+          <div class="rating-circle"></div>
+          <div class="rating-circle"></div>
+          <div class="rating-circle"></div>
+          <div class="rating-circle"></div>
+          <div class="rating-circle"></div>
+      </div>
+      <form id="kommentar" action="" method="post">
+          <label>Kommentar:<br><textarea cols="45" rows="5"></textarea></label>
+      </form>
+
+      <button id="klikHer">Indsend</button>
+
+      <div id="indsend">
+          <h1>Tak for dit svar!</h1>
+      </div>
+    </template>
+
 
     <div class="onoffswitch">
         <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>

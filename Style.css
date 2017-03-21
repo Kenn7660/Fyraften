@@ -189,6 +189,30 @@ html, body {
     }
 }
 
+/*rating system*/
+
+.rating-circle {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 1.1em;
+    display: inline-block;
+    margin: 0;
+    padding: .1em;
+}
+
+#rating-container {
+    margin-top: 40px;
+}
+
+.rating-chosen {
+    background-color: darkorange;
+}
+
+#indsend {
+    display: none;
+}
+
 .answers li {
 list-style: upper-alpha;
 }
