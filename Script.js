@@ -339,7 +339,6 @@ function createMarker(infoMarker) {
         var clone = document.querySelector("#template_insta").content.cloneNode(true);
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
-        clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
         clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
 
@@ -349,7 +348,6 @@ function createMarker(infoMarker) {
         var clone = document.querySelector("#template_billede").content.cloneNode(true);
         clone.querySelector(".navn").textContent = infoMarker.navn;
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
-        clone.querySelector(".adresse").innerHTML = infoMarker.adresse;
         clone.querySelector(".slide1").src = infoMarker.slide1;
         clone.querySelector(".slide2").src = infoMarker.slide2;
         clone.querySelector(".slide3").src = infoMarker.slide3;

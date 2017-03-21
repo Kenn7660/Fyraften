@@ -4,16 +4,20 @@
 
 /* Optional: Makes the sample page fill the window. */
 
-html,
-body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
-html, body {
-    height: 90%;
-    margin: 0;
-    padding: 0;
+
+.navn {
+    font-size: 60px;
+    font-family: onyx;
+}
+
+.beskrivelse {
+    font-family: Arial, sans-serif;
+
 }
 
 /* Toggle switch */
@@ -109,9 +113,26 @@ html, body {
     right: 0px;
 }
 
-/*timeLine*/
+/*Insta */
+
+.instagram {
+    float: right;
+}
+
+.link {
+    font-size: 25px;
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.beskrivelse {
+    float: left;
+}
+
 
 /* slideshow */
+
 .knap1 {
     position: absolute;
     top: 100px;
