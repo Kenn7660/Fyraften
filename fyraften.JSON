@@ -14,7 +14,7 @@
     },
     {
         "id": "stop2",
-        "navn": "barber",
+        "navn": "Barber",
         "infotype": "quiz",
         "markerclass": "barber",
         "icon": "pest.svg",
@@ -23,9 +23,10 @@
             "lng": 12.573952
         },
         "question": "Hvorfor har barberer et lille fad som symbol?",
-        "svarA": "Det var et sterilt fad til barberens redskaber",
-        "svarB": "Barbererne udlejede ekstra plads til fadebure",
-        "svarC": "Fordi barbererne stod for åreladning og blodet kunne dryppe ned i fadet",
+        "svarA": "1. Det var et sterilt fad til barberens redskaber",
+        "svarB": "2. Barbererne udlejede ekstra plads til fadebure",
+        "svarC": "3. Fordi barbererne stod for åreladning og blodet<br>                  kunne dryppe ned i fadet",
+        "korrekt": "<strong>Det rigtige svar er nummer 3:</strong> Da pesten kom smuttede<br> de rige og lægerne, derfor var det barbererne der havde<br> redskaberne til at udføre åreladning, som man mente kunne<br> helbrede mod pesten.",
         "adresse": "Peter hvidtfelts stræde 9",
         "timeLine": "img/1711.svg"
     },
@@ -64,7 +65,7 @@
     },
     {
         "id": "stop5",
-        "navn": "natmænd",
+        "navn": "Natmænd",
         "infotype": "quiz",
         "markerclass": "natmaend",
         "icon": "natmand.svg",
@@ -73,9 +74,10 @@
             "lng": 12.576026
         },
         "question": "Hvorfor er der træbelægning i de gamle porte?",
-        "svarA": "Så borgerskabets fine damer ikke trådte skævt på brostenene på vej ud til kareterne",
-        "svarB": "Der fandtes ikke gummihjul på hestevognene, så  for  at dæmpe larmen fra hjulene, lagde man trægulve i portene",
-        "svarC": "De hjemløse og forældreløse kunne få lov at overnatte i portene og lå derfor ikke direkte på de kolde brosten",
+        "svarA": "1. Så borgerskabets fine damer ikke trådte<br> skævt på brostenene på vej ud til kareterne",
+        "svarB": "2. Der fandtes ikke gummihjul på hestevognene,<br> så  for  at dæmpe larmen fra hjulene, lagde man<br> trægulve i portene",
+        "svarC": "3. De hjemløse og forældreløse kunne få lov at<br> overnatte i portene og lå derfor ikke direkte på de<br> kolde brosten",
+        "korrekt": "<strong>Det rigtige svar er nummer 2:</strong>Natmændene kom og tømte<br> gårdenes lokummer. For ikke at vække de sovende, lagde<br> man trægulv i portene for at dæmpe larmen fra hestevognene.",
         "adresse": "Skindergade 5",
         "timeLine": "img/1782N.svg"
     },
@@ -95,7 +97,7 @@
     },
     {
         "id": "stop7",
-        "navn": "louisesHus",
+        "navn": "Louises Hus",
         "infotype": "quiz",
         "markerclass": "louiseshus",
         "icon":"louiseshus.svg",
@@ -104,9 +106,10 @@
             "lng": 12.574868
         },
         "question": "Hvad indførte Louise Rasmussen i sin butik?",
-        "svarA": "Vokshoveder med hatte - specialimporteret fra Frankrig",
-        "svarB": "Den første mannequin i DK der kunne dreje rundt",
-        "svarC": "En indsamlingskasse til fattige unge piger",
+        "svarA": "1. Vokshoveder med hatte specialimporteret fra Frankrig",
+        "svarB": "2. Den første mannequin i DK der kunne dreje rundt",
+        "svarC": "3. En indsamlingskasse til fattige unge piger",
+        "korrekt": "<strong>Det rigtige svar er nummer 2:</strong> Folk stimlede sammen om den<br> spændende nye mannequin, som Louise havde fået fat i<br> som den første i DK.",
         "adresse": "vimmelskaftet 38",
         "timeLine": "img/1844.svg"
     },
@@ -128,7 +131,7 @@
     },
     {
         "id": "stop9",
-        "navn": "magstræde",
+        "navn": "Magstræde",
         "infotype": "quiz",
         "markerclass": "magstraede",
         "icon": "magstade.svg",
@@ -137,9 +140,10 @@
             "lng": 12.576080
         },
         "question": "Hvad betyder mag?",
-        "svarA": "Et sted hvor folk kunne holde stævnemøder i ro og mag",
-        "svarB": "En forbindelsesvej mellem byportene",
-        "svarC": "Et nødtørfshus (toilet)",
+        "svarA": "1. Et sted hvor folk kunne holde stævnemøder i ro<br> og mag",
+        "svarB": "2. En forbindelsesvej mellem byportene",
+        "svarC": "3. Et nødtørfshus (toilet)",
+        "korrekt": "<strong>Det rigtige svar er nummer 3:</strong> København hælder lidt nedad, <br>hvilket gjorde at magstræde og de omkringliggende gader lå<br> begravet i lort. Deraf de meget lugtende navne.",
         "adresse": "Magstræde 4",
         "timeLine": "img/1728.svg"
     },
@@ -192,17 +196,13 @@
     {
         "id": "stop13",
         "navn": "slotspladsen",
-        "infotype": "quiz",
+        "infotype": "rating",
         "markerclass": "slotspladsen",
         "icon": "slotspladsen.svg",
         "position": {
             "lat": 55.676398,
             "lng": 12.581273
         },
-        "question": "Hvorfor var det lige netop d. 5. juni vi fik grundloven?",
-        "svarA": "Det var Frederik d. 7. og grevinde Danners bryllupsdag",
-        "svarB": "For at sætte en stopper for en stor demonstration mod kongen",
-        "svarC": "For at huske Grevinde Danners ufødte barn",
         "adresse": "Christiansborg slotsplads",
         "timeLine": "img/1849.svg"
     }

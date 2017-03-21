@@ -1,3 +1,7 @@
+body {
+    background: red;
+}
+
 #map {
     height: 100%;
 }
@@ -169,6 +173,7 @@ html, body {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
 
 .marker.active {
     animation-name: pulse;
@@ -182,4 +187,37 @@ html, body {
     100% {
         transform: scale(1, 1);
     }
+}
+
+.answers li {
+list-style: upper-alpha;
+}
+
+label {
+margin-left: 0.5em;
+cursor: pointer;
+}
+
+#results {
+background: #dddada;
+color: #000000;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#categorylist {
+margin-top: 6px;
+display: none;
+}
+
+#category1 {
+display: none;
+}
+
+#closing {
+display: none;
+font-style: italic;
 }

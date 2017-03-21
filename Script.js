@@ -250,7 +250,7 @@ function importData(data) {
                 // beregn afstand mellem bruger og marker
                 var dist = google.maps.geometry.spherical.computeDistanceBetween(markerPos, minPos);
               //  console.log("distance to " + interessepunkt.navn + " is " + dist);
-                if (dist < 20) {
+                if (dist < 20000) {
                 //    console.warn("TÆT PÅ!!");
                     var selector = "#markerLayer .marker." + interessepunkt.markerclass;
 
@@ -341,8 +341,21 @@ function createMarker(infoMarker) {
         clone.querySelector(".beskrivelse").innerHTML = infoMarker.beskrivelse;
         clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
+             infoWindow.open(map);
 
         } else if(infoMarker.infotype == "quiz") {
+        var clone = document.querySelector("#template_quiz").content.cloneNode(true);
+        clone.querySelector(".navn").innerHTML = infoMarker.navn;
+        clone.querySelector(".question").innerHTML = infoMarker.question;
+        clone.querySelector(".svarA").innerHTML = infoMarker.svarA;
+        clone.querySelector(".svarB").innerHTML = infoMarker.svarB;
+        clone.querySelector(".svarC").innerHTML = infoMarker.svarC;
+        clone.querySelector(".korrekt_svar").innerHTML = infoMarker.korrekt;
+        clone.querySelector(".timeLine").src = infoMarker.timeLine;
+        infoWindow.setContent(clone);
+             infoWindow.open(map);
+        quiz();
+
 
         } else {
         var clone = document.querySelector("#template_billede").content.cloneNode(true);
@@ -353,12 +366,14 @@ function createMarker(infoMarker) {
         clone.querySelector(".slide3").src = infoMarker.slide3;
         clone.querySelector(".timeLine").src = infoMarker.timeLine;
         infoWindow.setContent(clone);
+        infoWindow.open(map);
+        showDivs(slideIndex);
+
         }
 
 
-        infoWindow.open(map);
 
-        showDivs(slideIndex);
+
     });
 
 
@@ -382,3 +397,17 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+function quiz() {
+$("#results").click(function() {
+
+if (!$("input[name=q1]:checked").val()) {
+alert("Du skal vælge et svar!");
+}
+
+else {
+    $("#category1").show("slow"); };
+
+{ $("#closing").show("slow"); };
+}
+    )};
