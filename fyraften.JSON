@@ -1,14 +1,14 @@
 [
     {
         "id": "stop1",
-        "navn": "nørreport",
+        "navn": "Nørreport",
         "markerclass": "noerreport",
         "icon": "norreport.svg",
         "position": {
             "lat": 55.683295,
             "lng": 12.571506
         },
-        "beskrivelse": "det er her vi starter",
+        "beskrivelse": "Det er her vi starter",
         "adresse": "Nørreport"
 
     },
@@ -32,14 +32,14 @@
     },
     {
         "id": "stop3",
-        "navn": "synagoge",
+        "navn": "Synagoge",
         "markerclass": "synagoge",
         "icon": "synagoge.svg",
         "position": {
             "lat": 55.681283,
             "lng": 12.573614
         },
-        "beskrivelse": "den jødiske synagoge",
+        "beskrivelse": "Den jødiske synagoge",
         "adresse": "Krystalgade 12",
         "timeLine": "img/1943.svg",
         "slide1": "img/synagoge-01-01.svg",
@@ -49,7 +49,7 @@
 
     {
         "id": "stop4",
-        "navn": "rundetårn",
+        "navn": "Rundetårn",
         "markerclass": "rundetårn",
         "icon": "rundetarn.svg",
         "position": {
@@ -83,7 +83,7 @@
     },
     {
         "id": "stop6",
-        "navn": "gråbrødretorv",
+        "navn": "Gråbrødretorv",
         "infotype": "instagram",
         "markerclass": "gbtorv",
         "icon": "blatarn.svg",
@@ -115,15 +115,15 @@
     },
     {
         "id": "stop8",
-        "navn": "JCJacobsensBarndomshjem",
+        "navn": "J.C. Jacobsens Barndomshjem",
         "markerclass": "jcjabson",
         "icon": "carlsberg.svg",
         "position": {
             "lat": 55.677740,
             "lng": 12.574970
         },
-        "beskrivelse": "grundlægger af Carlsberg",
-        "adresse": "brolæggerstræde - brolæggergården nr.5",
+        "beskrivelse": "Grundlægger af Carlsberg",
+        "adresse": "Brolæggerstræde - Brolæggergården nr.5",
         "timeLine": "img/1847.svg",
         "slide1": "img/carlsberg-01-01.svg",
         "slide2": "img/carlsberg-02-01.svg",
@@ -149,15 +149,15 @@
     },
     {
         "id": "stop10",
-        "navn": "marmorbroen",
+        "navn": "Marmorbroen",
         "markerclass": "marmorbroen",
         "icon": "marmorbroen.svg",
         "position": {
             "lat": 55.675051,
             "lng": 12.577233
         },
-        "beskrivelse": "krigen mod sverige",
-        "adresse": "marmorbroen",
+        "beskrivelse": "Krigen mod sverige",
+        "adresse": "Marmorbroen",
         "timeLine": "img/1657.svg",
         "slide1": "img/marmorbroen-01.svg",
         "slide2": "img/marmorbroen-02-1.jpg",
@@ -165,7 +165,7 @@
     },
     {
         "id": "stop11",
-        "navn": "christiansborgRideBane",
+        "navn": "Christiansborg RideBane",
         "markerclass": "ridebane",
         "icon": "ridepladsen.svg",
         "position": {
@@ -173,7 +173,7 @@
             "lng": 12.578062
         },
         "beskrivelse": "ridebanen",
-        "adresse": "Christiansborg01",
+        "adresse": "Christiansborg",
         "timeLine": "img/1794.svg",
         "slide1": "img/ridebane-01-01.svg",
         "slide2": "img/ridebane-02-01.svg",
@@ -181,7 +181,7 @@
     },
     {
         "id": "stop12",
-        "navn": "christiansborgTeateret",
+        "navn": "Christiansborg Teateret",
         "infotype": "instagram",
         "markerclass": "christiansborg",
         "icon": "teateret.svg",
@@ -190,12 +190,12 @@
             "lng": 12.579432
         },
         "beskrivelse": "Gør turen unik. Tag et underholdende <br> og mindeværdigt billede med din gruppe <br> og upload det på instagram.",
-        "adresse": "Christiansborg02",
+        "adresse": "Christiansborg",
         "timeLine": "img/1772.svg"
     },
     {
         "id": "stop13",
-        "navn": "slotspladsen",
+        "navn": "Slotspladsen",
         "infotype": "rating",
         "markerclass": "slotspladsen",
         "icon": "slotspladsen.svg",
@@ -203,7 +203,7 @@
             "lat": 55.676398,
             "lng": 12.581273
         },
-        "adresse": "Christiansborg slotsplads",
+        "adresse": "Christiansborg Slotsplads",
         "timeLine": "img/1849.svg"
     }
 ]

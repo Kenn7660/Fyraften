@@ -288,7 +288,7 @@ function findAlleMarkers() {
     var markerArray = document.querySelectorAll("#markerLayer img");
     //  console.log("alle markers", markerArray);
 
-    if (markerArray.length == 0) {
+    if (markerArray.length != liste.length) {
         //hvis markerArray er lig med nul.. så spørg igen!
         setTimeout(findAlleMarkers, 50);
     } else {
